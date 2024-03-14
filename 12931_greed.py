@@ -34,7 +34,7 @@ if __name__ == "__main__":
     result = count_one_check(numbers)
     # 2 곱하는 횟수, 최대값의 log 값 
     if max(numbers) !=0:
-
+        
         result = int(result )+ int( math.floor(math.log2(max(numbers))) )
     print(result)
 
